@@ -54,13 +54,13 @@ def horiz_div(col_widths, horiz, vert, padding):
     Crea los divisores horizontales para una tabla con anchos de columna dados.
     """
     horizs = [horiz * w for w in col_widths]
-    div = ''.join([padding * horiz, vert, padding * horiz])
-    return div.join(horizs)
+    div = ''.join([padding * ' ', vert, padding * ' '])
+    return '|' + div.join(horizs) + '|'
 
 def add_dividers(row, divider, padding):
     """Añade divisores y relleno a una fila de celdas y devuelve una cadena."""
     div = ''.join([padding * ' ', divider, padding * ' '])
-    return div.join(row)
+    return '|' + div.join(row) + '|'
 
 def md_table(table, padding=DEFAULT_PADDING, divider='|', header_div='-'):
     """
