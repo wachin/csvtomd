@@ -80,13 +80,13 @@ en,140,2Chronicles
 ### Markdown generado (`ejemplo.md`):
 
 ```markdown
-lang  |  code  |  name        
------ |  ----- |  ------------
-uk    |  700   |  2 Ін        
-uk    |  710   |  3 Івана     
-uk    |  720   |  Юда         
-ru    |  100   |  2Цар        
-en    |  140   |  2Chronicles 
+| lang  |  code  |  name        |  
+|-------|--------|--------------|
+| uk    |  700   |  2 Ін        | 
+| uk    |  710   |  3 Івана     | 
+| uk    |  720   |  Юда         | 
+| ru    |  100   |  2Цар        |  
+| en    |  140   |  2Chronicles | 
 ```
 
 ---
